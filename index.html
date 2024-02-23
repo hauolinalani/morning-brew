@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Brew</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- Your custom CSS -->
+  <style>
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; /* Adjust margin-top as needed */
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .image-overlay-container {
+      background-image: url('morning-brew-coffee.png');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      text-align: left; /* Align text to the left */
+      padding-left: 20px; /* Add left padding to adjust the text position */
+    }
+
+    .overlay-text {
+      color: whitesmoke;
+      font-family: 'noticia text', serif;
+    }
+
+    .overlay-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .overlay-text p {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      text-align: center; /* Center align the paragraph */
+    }
+
+    .overlay-text button {
+      font-size: 1rem;
+      margin-right: 10px;
+    }
+
+    .footer-container {
+      margin-top: auto;
+      padding-top: 20px;
+      background-color: #f8f9fa;
+    }
+
+    .footer-column {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; /* Align items vertically */
+    }
+
+    .footer-column p {
+      margin-bottom: 5px;
+      text-align: center; /* Center align the paragraph */
+    }
+
+    .instagram-icon {
+      margin-top: 10px; /* Adjust margin-top as needed */
+      font-size: 1.5rem; /* Adjust icon size */
+      color: #405de6;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Logo -->
+<div class="logo-container">
+  <img src="morning-brew-hawaii-logo-black.png" alt="Morning Brew Hawaii Logo">
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active border-3 border-top border-dark">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item border-1 border-top border-dark">
+          <a class="nav-link" href="#">Order Online</a>
+        </li>
+        <li class="nav-item border-1 border-top border-dark">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item border-1 border-top border-dark">
+          <a class="nav-link" href="#">Locations</a>
+        </li>
+        <li class="nav-item border-1 border-top border-dark">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item border-1 border-top border-dark">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item border-1 border-top border-dark">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="image-overlay-container">
+  <div class="overlay-text">
+    <h1>Aloha</h1>
+    <h2>Morning Brew Hawai'i</h2>
+    <p>Kailua and Kaka'ako, O'ahu</p>
+    <button class="btn btn-primary">Our Menus</button>
+    <button class="btn btn-primary">Order Online</button>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="mt-auto py-3 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="footer-column">
+          <p>MORNING BREW KAILUA</p>
+          <p>600 Kailua Road</p>
+          <p>Kailua, HI 96734</p>
+          <p>(808) 262-7770</p>
+          <p>mbcrew22@gmail.com</p>
+          <i class="bi bi-instagram p-1 instagram-icon"></i> <!-- Bootstrap Instagram Icon -->
+        </div>
+      </div>
+      <div class="col">
+        <div class="footer-column">
+          <p>MORNING BREW KAKAAKO</p>
+          <p>685 Auahi St #113</p>
+          <p>Honolulu, HI 96813</p>
+          <p>(808) 765-4321</p>
+          <p>mbkakaako@gmail.com</p>
+          <i class="bi bi-instagram p-1 instagram-icon"></i> <!-- Bootstrap Instagram Icon -->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS bundle (including Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
